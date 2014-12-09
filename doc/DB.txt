@@ -1,0 +1,6 @@
+服务器：gaduoyouhui.mysql.rds.aliyuncs.com
+端口号：3306
+
+数据库名：gaduoyouhui
+用户名：gaduoyouhui
+密码：gaduoyouhui
