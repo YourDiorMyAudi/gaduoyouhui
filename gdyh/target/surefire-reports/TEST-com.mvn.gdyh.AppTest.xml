@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\tristan\study\GitHub\gdyh"/>
+    <property name="user.dir" value="C:\Users\TRANSTAN\git\gaduoyouhui\gdyh"/>
     <property name="java.runtime.version" value="1.7.0_67-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\tristan\study\GitHub\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1800136811909441604.tmp"/>
+    <property name="classworlds.conf" value="E:\tristan\study\GitHub\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6754920394821928800.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="D:\Program Files\Java\jdk1.7.0_67\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jdk1.7.0_67/bin/../jre/bin/server;D:/Program Files/Java/jdk1.7.0_67/bin/../jre/bin;D:/Program Files/Java/jdk1.7.0_67/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\VanDyke Software\Clients\;C:\Program Files (x86)\cvsnt;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;D:\Program Files\apache-ant-1.7.1/bin;D:\Program Files\Tesseract-OCR;D:\Program Files\apache-tomcat-7.0.47\lib;D:\Program Files\apache-tomcat-7.0.47\bin;D:\Program Files\nodejs\;D:\Program Files\Java\jdk1.7.0_67\bin;D:\Program Files\MongoDB 2.6 Standard\bin;D:\Program Files\TortoiseGit\bin;E:\tristan\study\gdyh\apache-maven-3.2.3\bin;D:\Program Files\apache-tomcat-8.0.15\lib;D:\Program Files\apache-tomcat-8.0.15\bin;C:\Program Files (x86)\CVSNT\;D:\Program Files\IDM Computer Solutions\UltraEdit\;C:\Users\TRANSTAN\AppData\Roaming\npm;D:\Program Files\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>

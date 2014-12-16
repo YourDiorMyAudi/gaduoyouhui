@@ -4,5 +4,9 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
  
 <struts>
-    <include file="com.mvn.gdyh.config.struts_login.xml"/>
+    <package name="gdyh" extends="struts-default" namespace="/">
+        <action name="login" class="com.mvn.gdyh.action.LoginAction" method="checkUser">
+            <result name="success">/WEB-INF/jsp/index.jsp</result>
+        </action>
+    </package>
 </struts>
