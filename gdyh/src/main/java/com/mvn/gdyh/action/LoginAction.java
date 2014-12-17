@@ -1,6 +1,7 @@
 package com.mvn.gdyh.action;
 
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 import com.opensymphony.xwork2.ActionSupport;
 

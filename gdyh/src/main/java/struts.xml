@@ -4,8 +4,10 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
  
 <struts>
+    <constant name="struts.devMode" value="true"></constant>
+    <constant name="struts.i18n.encoding" value="UTF-8"></constant>
     <package name="gdyh" extends="struts-default" namespace="/">
-        <action name="login" class="com.mvn.gdyh.action.LoginAction" method="checkUser">
+        <action name="login" class="loginAction" method="checkUser">
             <result name="success">/WEB-INF/jsp/index.jsp</result>
         </action>
     </package>
