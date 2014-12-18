@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-12-18 16:29:50 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.mvn.gdyh.model.TblGdyhUserInf" table="tbl_gdyh_user_inf" catalog="gaduoyouhui" optimistic-lock="version">
+        <id name="username" type="string">
+            <column name="username" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="password" type="string">
+            <column name="password" length="20" not-null="true" />
+        </property>
+        <property name="addr" type="string">
+            <column name="addr" length="80" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
