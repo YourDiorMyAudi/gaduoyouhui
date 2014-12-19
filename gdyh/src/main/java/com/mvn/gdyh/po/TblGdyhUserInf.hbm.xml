@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 2014-12-18 16:29:50 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="com.mvn.gdyh.model.TblGdyhUserInf" table="tbl_gdyh_user_inf" catalog="gaduoyouhui" optimistic-lock="version">
+    <class name="com.mvn.gdyh.po.TblGdyhUserInf" table="tbl_gdyh_user_inf" catalog="gaduoyouhui" optimistic-lock="version">
         <id name="username" type="string">
             <column name="username" length="20" />
             <generator class="assigned" />

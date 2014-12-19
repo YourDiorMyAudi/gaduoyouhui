@@ -5,7 +5,7 @@
  
 <struts>
     <package name="gdyh" extends="struts-default" namespace="/">
-        <action name="login" class="com.mvn.gdyh.action.LoginAction" method="checkUser">
+        <action name="login" class="loginAction" method="checkUser">
             <result name="success">/WEB-INF/jsp/index.jsp</result>
         </action>
     </package>

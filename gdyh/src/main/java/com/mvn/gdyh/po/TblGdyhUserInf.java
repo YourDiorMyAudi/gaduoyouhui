@@ -1,4 +1,4 @@
-package com.mvn.gdyh.model;
+package com.mvn.gdyh.po;
 
 // Generated 2014-12-18 16:29:50 by Hibernate Tools 4.3.1
 
