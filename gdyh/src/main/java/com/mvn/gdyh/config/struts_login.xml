@@ -4,9 +4,16 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd">
  
 <struts>
-    <package name="gdyh" extends="struts-default" namespace="/">
+    <package name="gdyh" extends="struts-default,json-default" namespace="/">
         <action name="login" class="loginAction" method="checkUser">
             <result name="success">/WEB-INF/jsp/index.jsp</result>
+        </action>
+        <action name="json" class="loginAction" method="testJson">
+            <result type="json">
+                <param name="root">jsonMap</param>
+            </result>
+        </action>
+        <action name="weixin" class="loginAction" method="connWX">
         </action>
     </package>
 </struts>

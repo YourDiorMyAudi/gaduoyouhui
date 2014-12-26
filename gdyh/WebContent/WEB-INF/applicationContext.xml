@@ -3,7 +3,9 @@
 <beans>
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/gaduoyouhui" />
+        <!-- <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/gaduoyouhui" /> -->
+        
+        <property name="jdbcUrl" value="jdbc:mysql://gaduoyouhui.mysql.rds.aliyuncs.com:3306/gaduoyouhui" />
         <property name="user" value="gaduoyouhui" />
         <property name="password" value="gaduoyouhui" />
     </bean>

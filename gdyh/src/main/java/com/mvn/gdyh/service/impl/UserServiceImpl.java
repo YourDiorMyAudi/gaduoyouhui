@@ -15,7 +15,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public String findUserInfByUsername(String username) {
-		List<TblGdyhUserInf> list = userDAO.findAllRecords();//userDAO.findByHql("from TblGdyhUserInf t where t.username='jiwei'");
+		List<TblGdyhUserInf> list = userDAO.findByHql("from TblGdyhUserInf t where t.username='jiwei'");
 		TblGdyhUserInf po = list.get(0);
 		return po.getAddr();
 	}
